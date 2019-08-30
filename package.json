@@ -1,0 +1,24 @@
+{
+  "name": "testnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "echo preinstall `test -e .git && echo yolo`",
+    "postinstall": "echo postinstall `test -e .git && echo yolo`",
+    "prepare": "echo prepare `test -e .git && echo yolo`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tseguier/testnpm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tseguier/testnpm/issues"
+  },
+  "homepage": "https://github.com/tseguier/testnpm#readme",
+  "dependencies": {
+  }
+}
