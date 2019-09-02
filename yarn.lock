@@ -2,6 +2,3 @@
 # yarn lockfile v1
 
 
-"testnpm@https://github.com/tseguier/testnpm/":
-  version "1.0.0"
-  resolved "https://github.com/tseguier/testnpm/#46d14a49774518df2cc36a1c834d37954c7a56e2"
